@@ -8,7 +8,7 @@ import RpoCard from '../components/RpoCard';
 
 export default function HomePage() {
   const [dropDown, setDropDown] = useState(false);
-  const [searchUser, setSerchUser] = useState<string>('AndriiKalash');
+  const [searchUser, setSerchUser] = useState<string>('');
   const delaySearch = useDebounce(searchUser, 1000);
   const { isLoading, isError, data } = useSearchUsersQuery(delaySearch, {
     skip: !delaySearch,
