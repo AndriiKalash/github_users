@@ -1,46 +1,33 @@
-# Getting Started with Create React App
+# GitHub Users App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the GitHub Users App! This web application allows you to discover and explore GitHub users, view their repositories, add your favorite repositories to a list, and easily navigate to their GitHub profiles.
 
-## Available Scripts
+## Overview
 
-In the project directory, you can run:
+The GitHub Users App is built using modern web technologies and tools to provide a seamless experience for GitHub users and enthusiasts. You can search for any GitHub user, explore their repositories, and save your favorite repositories for future reference.
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- **User Search**: Search for GitHub users by their usernames and discover their profiles.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- **Repository Listings**: View a list of repositories belonging to a GitHub user, including repository names, descriptions, and statistics.
 
-### `npm test`
+- **Favorites**: Add your favorite repositories to a dedicated Favorites page for easy access.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **GitHub Integration**: Click on a repository to navigate to the corresponding GitHub page for more details and interactions.
 
-### `npm run build`
+## Stack
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **ReactJS**: The frontend of the application is built using ReactJS, a popular JavaScript library for building user interfaces.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **TypeScript**: TypeScript is used to add static typing to the JavaScript codebase, improving code quality and maintainability.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **React Hooks**: React Hooks are used for state management and side effects in functional components.
 
-### `npm run eject`
+- **React Router**: React Router is used for client-side routing, enabling seamless navigation within the app.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- **Redux Toolkit**: Redux Toolkit simplifies state management by providing a set of tools and best practices. It's used to manage application-wide state.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- **RTK Query**: RTK Query is used for data fetching and caching, providing a powerful and efficient way to handle HTTP requests.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+- **Tailwind CSS**: Tailwind CSS is used for styling the user interface, providing a utility-first approach to styling.
